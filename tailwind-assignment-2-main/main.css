@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    .s1{
+        @apply text-[#F44335] border-b border-b-[#F44335]
+    }
+
+    .hovereffect{
+        @apply hover:scale-105 cursor-pointer hover:transition-all
+    }
+    .custom-oval{
+        @apply bg-['images/Oval@3x.png']
+    }
+    
+}

@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Creativeforyou24</title>
+</head>
+<body class="bg-[#F5F5F5]">
+
+
+    <!--HEADER-->
+
+    
+    <header class="bg-white relative">
+        <nav class="p-5 container mx-auto flex items-center justify-between ">
+           
+            <div>
+                <img class="hover:transition-all hover:cursor-pointer hover:scale-105" src="images/logo.png" alt="Creative for you logo" title="Creative for you logo">
+            </div>
+    
+            
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-[#072125] focus:outline-none" aria-expanded="false">
+                    <svg id="menu-icon" class="w-[26px] h-[26px] transition-transform duration-300 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
+                    </svg>
+                </button>
+            </div>
+    
+            
+            <div class="hidden md:flex md:items-center md:justify-center md:gap-8">
+                <ul class="flex flex-row gap-8">
+                    <li class="text-[#072125] hover:text-[#F44335] transition-all duration-500 hover:scale-105 cursor-pointer font-medium">Home</li>
+                    <li class="text-[#F44335] hover:text-[#F44335] transition-all duration-500 hover:scale-105 cursor-pointer font-medium">About Us</li>
+                    <li class="text-[#072125] hover:text-[#F44335] transition-all duration-500 hover:scale-105 cursor-pointer font-medium">Upskill</li>
+                    <li class="text-[#072125] hover:text-[#F44335] transition-all duration-500 hover:scale-105 cursor-pointer font-medium">Contact us</li>
+                </ul>
+                    
+                
+            </div>
+    
+            
+            <div class="hidden md:block">
+                <button class="bg-[#F44335] px-4 py-2 rounded-md text-white hover:scale-105 transition">
+                    Register Interest
+                </button>
+            </div>
+        </nav>
+    
+        <!-- Dropdown Menu for Small Screens -->
+        <div id="menu" class="hidden absolute right-5 top-full mt-2 w-[200px] bg-white rounded-lg shadow-lg p-4 md:hidden ">
+            <ul class="flex flex-col gap-4">
+                <li class="text-[#072125] hover:text-[#F44335] transition-all duration-500 cursor-pointer font-medium">Home</li>
+                <li class="text-[#F44335] hover:text-[#F44335] transition-all duration-500 cursor-pointer font-medium">About Us</li>
+                <li class="text-[#072125] hover:text-[#F44335] transition-all duration-500 cursor-pointer font-medium">Upskill</li>
+                <li class="text-[#072125] hover:text-[#F44335] transition-all duration-500 cursor-pointer font-medium">Contact us</li>
+                <button class="bg-[#F44335] px-1 py-2 rounded-md text-white hover:scale-105 transition text-[12px] w-[100px]">
+                    Register Interest
+                </button>
+            </ul>
+            
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section >
+        <div class="bg-[#F44335] ">
+ 
+         <div class="bg-[url('images/hero%20section.png')] h-[380px] sm:h-[350px] lg:h-[550px] md:h-[500px] w-full bg-cover bg-center flex flex-col gap-6 ">
+             
+             
+             <div class="text-white font-semibold text-[10px] md:text-[18px] text-center mt-10 container mx-auto">
+                 Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span > Engage
+             </div>
+ 
+             <div class="font-bold text-white text-[28px] md:text-[56px] container mx-auto">
+                 <h1 class="text-center">
+                     Connecting <span class="s1">talent</span> to<br> opportunity through <span class="s1 ">skills</span> 
+                 </h1>
+             </div>
+ 
+             <div class="text-white text-[15px] md:text-[20px] text-center ">
+                 <p class="container mx-auto">We forster a skill-focussed environment enabling students to navigate their career with<br class="hidden md:block"> their self-paced learning journey and businesses to gain market-ready talent. </p>
+             </div>
+ 
+             <div class="flex justify-center container mx-auto">
+                 <button class="s1 bg-white py-2 px-8 md:py-3 md:px-8 rounded-[38px] font-bold text-[12px] md:[18px] hover:scale-105 hover:transition border-none">
+                     Ask questions                
+                 </button>
+             </div>
+ 
+             <img src="images/Wave.svg" alt="">
+          </div>
+        </div>
+         
+     </section>
+
+     <!-- C4U Empower section -->
+
+     <section class="container mx-auto xl:mt-32 lg:mt-12 md:mt-12 sm:mt-14 mt-3 flex items-center gap-[30px] justify-center flex-wrap">
+        <div>
+            <h1 class="text-[#2D3142] text-[40px] font-semibold">At <span class="s1 ">C4U,</span><br>
+            We Empower:
+            </h1>
+        </div>
+        <div class="w-[252px] h-[280px] rounded-[10px] border bg-[#2D3142] shadow-2xl hovereffect">
+            <div class="py-[35px] px-[20px]">
+                <img class="bg-white py-2 px-2 rounded-full" src="images/37.png" alt="">
+                <h1 class="text-white font-semibold text-[18px] mt-3">Students</h1>
+                <p class="text-[#DDDDDD] text-[14px] mt-3 w-[218px]">
+                    We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market. 
+
+                </p>
+            </div>
+        </div>
+
+
+        <div class="w-[252px] h-[280px] rounded-[10px] border bg-[#2D3142] shadow-2xl hovereffect">
+            <div class="py-[35px] px-[20px]">
+                <img class="bg-white py-3 px-2 rounded-full" src="images/Group 1702.png" alt="">
+                <h1 class="text-white font-semibold text-[18px] mt-3">Universities</h1>
+                <p class="text-[#DDDDDD] text-[14px] mt-3 text-justify  w-[218px]">
+                    We help your emerging talent to unlock their full potential by combining education and work to create future-ready employees
+                </p>
+            </div>
+        </div>
+
+
+        <div class="w-[252px] h-[280px] rounded-[10px] border bg-[#2D3142] shadow-2xl hovereffect">
+            <div class="py-[35px] px-[20px]">
+                <img class="bg-white px-3 py-3 rounded-full" src="images/Group 1686.png" alt="">
+                <h1 class="text-white font-semibold text-[18px] mt-3">Businesses</h1>
+                <p class=" text-[#DDDDDD] text-[14px] mt-3 text-justify w-[218px]">
+                    We enable businesses to tap into the diverse pool of emerging talent cultivated by universities. To co-create the future workforce and revitalise the business world.
+
+
+                </p>
+            </div>
+        </div>
+    </section>
+  <!-- Our mission -->
+     
+  <section class="flex flex-col gap-6">
+    <div class="bg-[url('images/oval.png')] bg-cover bg-center xl:h-[900px] lg:h-[600px] md:h-[500px] h-[350px] w-full container mx-auto relative ">
+        <div class="absolute flex md:justify-between w-full md:flex-nowrap flex-wrap justify-center">
+            <div class="flex flex-col items-center">
+                <h3 class="text-[#FC5A5A] mt-[100px]">About us</h3>
+                <h1 class="text-[#2D3142] text-[36px] font-semibold mt-2">Our Mission </h1>
+                <p class="text-[18px] font-medium mt-16 text-center lg:text-left">To create a personalised  pathway for continuous<br class="hidden lg:block"> learning and transferrable skills development.</p>
+                <button class="flex items-center gap-2 text-[#F44335] border border-[#F44335] px-4 py-2 rounded-[28px] mt-[100px] hovereffect">
+                    Find out more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 stroke-[#F44335]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>
+                      
+                </button>
+            </div> 
+            <img class="mt-[100px] h-[1428px] mt-[220px] hidden lg:block" src="images/Line and circle content.png" alt="">
+            <div>
+                <img class="mt-[80px] w-[470px] h-[420px]" src="images/Group 238902.png" alt="">
+            </div>
+        </div>
+       
+    </div>
+    <div class="bg-[url('images/oval.png')] bg-cover bg-center xl:h-[900px] lg:h-[600px] md:h-[500px] h-[350px] w-full container mx-auto relative mt-[500px] md:mt-4 mb-[1000px]">
+        
+        <div class="absolute flex md:justify-between w-full md:flex-nowrap flex-wrap justify-center">
+            
+                <img class="hidden md:block mt-[80px] w-[470px] h-[420px]" src="images/Right.png" alt="">
+            
+
+            <div class="flex flex-col items-center">
+                <h3 class="text-[#FC5A5A] mt-[100px]">About us</h3>
+                <h1 class="text-[#2D3142] text-[36px] font-semibold mt-2">Our Vision </h1>
+                <p class="text-[18px] font-medium mt-16 text-center lg:text-left">To have a globally recognised strategic bridge <br class="hidden lg:block">between education and the job market</p>
+                <button class="flex items-center gap-2 text-[#F44335] border border-[#F44335] px-4 py-2 rounded-[28px] mt-[100px] hovereffect">
+                   Contact us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 stroke-[#F44335]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>
+                      
+                </button>
+            </div> 
+            <div class="block md:hidden">
+                <img class="mt-[80px] z-50 w-[470px] h-[420px]" src="images/Right.png" alt="">
+            </div>
+        </div>
+
+    </div>
+  </section>
+   
+  <!-- discover section -->
+<section class="xl:mt-[-1300px] lg:mt-[-700px] md:mt-[-870px] sm:mt-[-300px] mt-[-350px] bg-white overflow-x-hidden">
+    <div class="container mx-auto flex lg:flex-row flex-col items-center md:justify-around flex-wrap" >
+        
+           <div class="bg-[url(images/1.png)] bg-no-repeat bg-right w-[240px] py-[150px]">
+            <img src="images/Group 199.png" alt="">
+            
+            <h1 class="mt-6 font-semibold text-[24px]">Discover</h1>
+            <br>
+            <p class="text-[#757095] text-[14px] font-medium w-[320px]">We uncover students unique skills to stand <br> out in a crowded job market
+            </p>
+           </div>
+           
+           <div class="bg-[url(images/2.png)] bg-no-repeat bg-right w-[240px] py-[150px]">
+            <img src="images/Group 199 (1).png" alt="">
+            
+            <h1 class="mt-6 font-semibold text-[24px]">Interact</h1>
+            <br>
+            <p class="text-[#757095] text-[14px] font-medium w-[320px]">We open doors to new opportunities by <br>expanding your transferrable skills
+            </p>
+           </div>
+
+
+           <div class="bg-[url(images/3.png)] bg-no-repeat bg-right w-[240px] py-[150px]">
+            <img src="images/Group 199 (3).png" alt="">
+            
+            <h1 class="mt-6 font-semibold text-[24px]">Engage</h1>
+            <br>
+            <p class="text-[#757095] text-[14px] font-medium w-[320px]">To forester a skill focussed environment that<br> enable students to navigate their ideal career
+            </p>
+           </div>
+    </div>
+</section>
+
+<!-- creative team -->
+<img class="w-full z-0 hidden lg:block" src="images/curve.png" alt="">
+<section class="mt-[-100px]  xl:mt-[-600px] lg:mt-[-500px] mb-[100px]">
+    <div class="container mx-auto py-[150px]">
+        <div class="flex lg:justify-start justify-center ">
+            <h1 class="text-[40px] font-medium text-center">The Creative Team<br class="hidden lg:block "> behind <span class="text-[#F44335]">the door</span></h1>
+            <img class="mt-[40px] hidden lg:block" src="images/Arrow_10.png" alt="">
+        </div>
+    </div>
+    <div class="container mx-auto flex flex-col lg:flex-row items-center lg:justify-center gap-5  flex-wrap lg:mt-[-100px] cursor-pointer ">
+        <div class="w-[350px] h-[500px] flex justify-center bg-[url(images/Group47269.png)] bg-no-repeat bg-left-bottom ">
+            <div class="z-40 w-[275px] h-[380px] bg-white backdrop-blur-3xl rounded-[10px] mt-16 shadow-2xl hovereffect">
+              <div class="flex flex-col items-center">
+                <img class="mt-[60px]" src="images/image 3.png" alt="">
+                <h1 class="text-[24px] font-semibold mt-[20px]">Ekta Mahajan</h1>
+                <h4 class="text-[14px] opacity-[40%] mt-[10px]">Founder & C.E.O</h4>
+                <img class="mt-[30px] hovereffect " src="images/Group 26610.png" alt="">
+              </div>
+            </div>
+        </div>
+
+        <div class="w-[350px] h-[500px] flex justify-center">
+            <div class="z-40 w-[275px] h-[380px] bg-white backdrop-blur-3xl rounded-[10px] mt-16 shadow-2xl hovereffect">
+              <div class="flex flex-col items-center">
+                <img class="mt-[60px]" src="images/image 4.png" alt="">
+                <h1 class="text-[24px] font-semibold mt-[20px]">Toby Potter-Drake</h1>
+                <h4 class="text-[14px] opacity-[40%] mt-[10px]">Product Manager Associate</h4>
+                <img class="mt-[30px] hovereffect" src="images/Group 26610.png" alt="">
+              </div>
+            </div>
+        </div>
+
+            <div class="w-[350px] h-[500px] flex justify-center">
+                <div class="z-40 w-[275px] h-[380px] bg-white hovereffect backdrop-blur-3xl rounded-[10px] mt-16 shadow-2xl">
+                  <div class="flex flex-col items-center">
+                    <img class="mt-[60px]" src="images/image 2.png" alt="">
+                    <h1 class="text-[24px] font-semibold mt-[20px]">Ross Davies</h1>
+                    <h4 class="text-[14px] opacity-[40%] mt-[10px]">Corporate Growth Associate</h4>
+                    <img class="mt-[30px] hovereffect" src="images/Group 26610.png" alt="">
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="w-[350px] h-[500px] flex justify-center bg-[url(images/Group47269.png)] bg-no-repeat bg-right-top ">
+               
+                <div class="w-[275px] h-[380px] bg-white hovereffect backdrop-blur-3xl rounded-[10px] mt-16 shadow-2xl">
+                  <div class="flex flex-col items-center">
+                    <img class="mt-[60px]" src="images/image 1 (1).png" alt="">
+                    <h1 class="text-[24px] font-semibold mt-[20px]">Leo crozier </h1>
+                    <h4 class="text-[14px] opacity-[40%] mt-[10px]">Software Developer</h4>
+                    <img class="mt-[30px] hovereffect" src="images/Group 26610.png" alt="">
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+</section>
+
+
+
+   <!-- footer section -->
+
+   <section >
+    <div
+      class="container mx-auto mt-8 flex justify-between gap-5 grid grid-cols-12 "
+    >
+      <div class="col-span-12 lg:col-span-6 ">
+        <ul
+          class="flex flex-col gap-1 items-center lg:items-start text-[20px] lg:text-[16px] "
+        >
+          <li class="text-[#20484F] font-medium mt-3">
+            <img src="images/logo.png" alt="" />
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Level39
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            One Canada Square,
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Canary Wharf,
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            London,
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            E14 5AB
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex lg:gap-14 gap-4 sm:gap-16 col-span-12 lg:col-span-6 ">
+        <ul class="flex flex-col gap-1">
+          <li class="text-[#20484F] font-bold mt-3 text-[18px] ">Home</li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Collaborations
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all  hover:text-[#F44335]"
+          >
+            Statistics
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            How It Works
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Testimonials
+          </li>
+        </ul>
+        <ul class="flex flex-col gap-1">
+          <li class="text-[#20484F] font-bold mt-3 text-[18px] ">About Us</li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Who We Are
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Mission statement
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Our Vision
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            The Team
+          </li>
+        </ul>
+        <ul class="flex flex-col gap-1">
+          <li class="text-[#20484F] font-bold mt-3 text-[18px] ">Upskill</li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            It Support
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Project Managment
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Data Analysts
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Ux Design
+          </li>
+        </ul>
+        <ul class="flex flex-col gap-1">
+          <li class="text-[#20484F] text-[18px] font-bold mt-3 ">
+            Contact Us
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Your message
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Email
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Phone number
+          </li>
+          <li
+            class="text-[#20484F] font-medium mt-3 hover:scale-105 cursor-pointer transition-all hover:text-[#F44335]"
+          >
+            Linkedin
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t text-center tex-[14px] text-[#20484F]">
+      <p class="py-3 font-medium ">Copyright 2022 Creatives For You LTD</p>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const menu = document.getElementById('menu');
+        const menuIcon = document.getElementById('menu-icon');
+    
+        menuToggle.onclick = function() {
+            const isMenuOpen = menu.classList.toggle('hidden');
+            menuToggle.setAttribute('aria-expanded', !isMenuOpen);
+    
+            if (isMenuOpen) {
+                menuIcon.setAttribute('viewBox', '0 0 448 512');
+                menuIcon.innerHTML = '<path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32-14.3 32 32z"/>';
+            } else {
+                menuIcon.setAttribute('viewBox', '0 0 352 512');
+                menuIcon.innerHTML = '<path d="M242.72 256l100.07-100.07c9.37-9.37 9.37-24.57 0-33.94l-22.66-22.66c-9.37-9.37-24.57-9.37-33.94 0L186.34 199.4 86.27 99.33c-9.37-9.37-24.57-9.37-33.94 0L29.66 122c-9.37 9.37-9.37 24.57 0 33.94L129.72 256 29.66 356.07c-9.37 9.37-9.37 24.57 0 33.94l22.66 22.66c9.37 9.37 24.57 9.37 33.94 0L186.34 312.6l100.07 100.07c9.37 9.37 24.57 9.37 33.94 0l22.66-22.66c9.37-9.37 9.37-24.57 0-33.94L242.72 256z"/>';
+            }
+        }
+    </script>
+    
+    
+
+
+    
+
+
+    
+    
+    
+
+</body>
+</html>
